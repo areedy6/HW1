@@ -1,41 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    <link href="./index.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <header>
-        <h1>Andrew Reedy</h1>
-
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfollio</a> 
-        <a href="contact.html">Contact</a>
+    
+<div>     
+       
+        <nav class="navbar">
+            <h1 class="name">Andrew Reedy</h1> 
+                 
+                <ul>   
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfollio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>  
+    
+    
+</div>   
 
 </header>
+
+
 <body>
 
-        <h2>Name</h2>
-            
-            <textarea>
 
-            </textarea>
-
-        <h2>Email</h2>
-
-            <textarea>
-
-
-            </textarea>
+    <div class="clear-fix container main">
         
-        <h2>Message</h2>
+        <h2 class="aboutme">Contact</h2>
 
-            <textarea>
-
-
-
-            </textarea>
+        <hr width="95%">
+        
+        <form class="contactForm">
+                <label>Name:</label>
+                <br>
+                <input type="text" name="name" placeholder="John Smith">
+            </form>
+            
+           
+            <form class="contactForm">
+                <label>Email:</label>
+                <br>
+                <input type="text" name="email" placeholder="example@gmail.com">
+            </form>
+            
+           
+            <label class="contactForm">Message:</label><br>		
+            <textarea class="contactForm" name="message" style="height:125px; width: 900px;"></textarea><br>
+            
+            
+            <input type="submit" value="Submit">
+    </div>
 
     </body>
+
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
 </html>
