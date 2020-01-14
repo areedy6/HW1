@@ -33,7 +33,7 @@ li {
       background-color: grey;
       color: #ffffff;
       padding: 22px  10px;
-      margin-left: 100px;
+      margin-left: 130px;
       font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 p{
@@ -45,6 +45,9 @@ img{
       height: 50px;
 
 }
+.centering{
+      margin: 0px 100px;
+}
 
 .portimage{
       width: 75px;
@@ -52,9 +55,6 @@ img{
       margin: auto;
 }
 
-.marginHelp{
-      margin-left: 35px;
-}
 
 
 .aboutme{
