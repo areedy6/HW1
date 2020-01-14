@@ -1,7 +1,7 @@
 
   
 body{
-      background-image: url("../assets/images/gravel.png");
+      background-image: url("../assets/images/cork-board.png");
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
@@ -49,8 +49,12 @@ img{
 .portimage{
       width: 75px;
       height: 75px;
+      margin: auto;
 }
 
+.marginHelp{
+      margin-left: 35px;
+}
 
 
 .aboutme{
